@@ -139,3 +139,72 @@
 </body>
 </html>
 
+<h1>Formulario</h1>
+    <caption>Formulario</caption><br /><br />
+           <form>
+              Primeiro Nome: <br /> <input type="text" name="name" id="txtnome"><br /><br />
+              Sobrenome: <br /> <input type="text" name="sobrename" id="txtsobrenome">
+           </form>
+
+   <br />
+
+        <caption>Comentarios</caption>
+           <form>
+                <textarea rows="5" cols="30"></textarea><br />
+                <button type="submit">Enviar</button>
+
+            </form>
+
+     <br />
+   <!--FORMULARIO ATIVO-->
+     <fieldset>
+          <legend>Formulario</legend><br />
+            <form>
+               Primeiro Nome: <input type="text" name="name" id="txtnome"><br /><br />
+               Sobrenome: <input type="text" name="sobrename" id="txtsobrenome">
+            </form>
+
+         <br />
+
+            <form>
+               E-mail:
+               <input type="email" required multiple>
+            </form>
+
+       <br />
+  
+            <form>
+                Data de Nascimento
+                <input type="date" name="nasc" placeholder="dd/mm/aaaa"><br /><br />
+                 <button type="submit">Enviar</button>
+             </form>
+   </fieldset>
+
+      <br />
+   <!--FORMULARIO INATIVO-->
+
+   <fieldset>
+         <legend>Formulario</legend><br />
+            <form>
+                Primeiro Nome: <input type="text" name="name" id="txtnome" disabled=""><br /><br />
+                 Sobrenome: <input type="text" name="sobrename" id="txtsobrenome" disabled="">
+            </form>
+
+      <br />
+
+      <br />
+
+        <form>
+            E-mail:
+            <input type="email" required multiple disabled="">
+         </form>
+
+      <br />
+
+       <form>
+           Data de Nascimento
+           <input type="date" name="nasc" placeholder="dd/mm/aaaa" disabled=""><br /><br />
+           <button type="submit" disabled="">Enviar</button>
+         </form>
+     </fieldset>
+
