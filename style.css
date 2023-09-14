@@ -78,7 +78,7 @@ td, th {
   }
   
   tr{
-    background-color: #660000;
+    background-color: #000000;
   }
 
   td{
@@ -93,6 +93,6 @@ td, th {
     left: 0;
    bottom: 0;
    width: 100%;
-   background-color: rgb(113, 2, 2);
+   background-color: rgb(56, 2, 2);
    color: white;
    text-align: center;
