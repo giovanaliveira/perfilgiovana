@@ -1,107 +1,129 @@
-html{
-    background-color:rgb(239, 240, 227)   
+*{
+    font-family: 'Times New Roman', Times, serif;
 }
 
-table, th, td {
-    border:1px solid black;
-}
 
-p{
+
+
+
+
+
+
+body {
+    background-color: rgb(239, 240, 227);
     font-family: Arial, Helvetica, sans-serif;
 }
-
-#imagem{
+#imagem {
     text-align: center;
 }
-
+/* Seleciona o título da tabela (caption) */
 caption {
-    font-size: 20px;
-    color: black;
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    font-size: 20px; /* Define o tamanho da fonte como 20 pixels */
+    color: #660000; /* Define a cor da fonte como preto */
     text-align: center;
- }
-
-td {
-    text-align: center;
-    font-weight: bold;
-    color: #c26861;
 }
-
-#colorA {
-    color: #006600;
-    font-size: 18;
+able {   
+    border-radius: 10%;
 }
-
-#colorB {
-    color: #0000ff;
-    font-size: 18;
+color a{
+     color: #006600;
 }
-
-#colorC {
+.formularioa{
+     font-size: 18px;
+     color: #006600;
+}
+color b{
+    color:#0000ff;
+}
+.formulariob{
+    font-size: 18px;
+    color:#0000ff;
+}
+color c{
     color: #ff9900;
-    font-size: 18;
 }
-
+.formularioc{
+    font-size: 18px;
+    color: #ff9900;
+}
 figure{
+    border: 1px color #cccccc solid;
+    height: 50%;
     padding: 4px;
-    border: 1px solid #cccccc ;
-    width: 50%;
     margin: auto;
 }
-
-figcaption{
+figcaption {
     background-color: black;
     color: white;
     font-style: italic;
-    margin: auto;
+    padding: 2px;
     text-align: center;
-}
-
-figure img {
+  }
+figure img{
     border-radius: 50%;
 }
-
-
-
-table{
+.rodape{
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+   background-image: linear-gradient(white, #660000);
+    color: white;
+    text-align: center;
+ }
+#tabela{
     width: 100%;
     margin-bottom : .5em;
     table-layout: fixed;
     text-align: center;
   }
-
-td, th {
+th {
     padding: .7em;
     margin: 0;
     /*border: 1px solid #ccc;*/
     text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
   }
   
   tr{
     background-color: #660000;
   }
-
-  td{
-    background-color: #fff9f9;
-  }
-
-  th {
-    color: white;
-  }
-
-  .bord {
-        width: 320px;
-        padding: 10px;
-        border: 5px solid rgb(0, 0, 0);
-        margin: auto;
-  }
-
-  .teste {
+td{
+    color: black;
+    background-color: white;
+}
+#cabecalho{
     text-align: center;
-  }
-  .outro {
-    width: 300px;
-    padding: 20px;
-    border: 1px solid rgb(174, 174, 181);
+    font-size: 25px;
+}
+.centro{
+    text-align: center;
+    color: #660000;
+    text-transform: uppercase;
+        font-size: 20px;
+}
+/*BOX MODEL INICIO*/
+.boxmodel{
+    width: 320px;
+    padding: 10px;
+    border: 5px solid #0f0000;
     margin: auto;
   }
-    
+  .ti{
+    text-align: center;
+  }
+  .botao{
+    float: right;
+    padding: 30px;
+  }
+  /*BOX MODEL FIM*/
+
+.outro {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid rgb(174, 174, 181);
+  margin: auto;
+}
+  
